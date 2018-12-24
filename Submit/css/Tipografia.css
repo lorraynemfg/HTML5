@@ -1,0 +1,24 @@
+body{
+  font-family: Helvetica, sans-serif;
+  color: black;
+  font-family: 'Comfortaa', cursive;
+}
+
+h1{
+  font-family: 'Thasadith', sans-serif;
+  letter-spacing: -2px;
+  text-transform: capitalize;
+  text-shadow: 2px 2px 5px #456149;//eixo x,eixo y,blur, cor
+}
+
+p{
+  text-indent: 30px;
+  width: 650px;
+  margin-top: 10px;
+  margin-left: 20px;
+  text-align: justify;
+  font-style: verdana, arial, sans-serif;
+}
+#frist{
+  margin-top: 50px;
+}

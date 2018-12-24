@@ -1,0 +1,72 @@
+a {
+  color: #225dcf;
+  text-decoration: none;
+  font-style: italic;
+  font-family: sans-serif;
+  text-shadow: 0 0 20px #00ff1f;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  text-indent: 30px;
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 790px
+  text-align: justify;
+  font-style: verdana, arial, sans-serif;
+}
+
+h1{
+  font-family: 'Thasadith', sans-serif;
+  letter-spacing: -2px;
+  text-transform: capitalize;/*Primeira letra das palavra maiuscula*/
+  text-shadow: 2px 2px 5px #456149;/*eixo x,eixo y,blur, cor*/
+}
+
+body {
+  font-family: 'Comfortaa',Helvetica, sans-serif;/*confortaa foi pega no fonts.google.com */
+}
+
+
+header ul {
+  list-style: none; // retira os pontos da lista nao ordenada
+  padding-left: 0px;
+}
+
+header ul li {
+  display: inline-block; // coloca os itens em ordem linear
+  margin-right: 10px;
+}
+
+body aside {
+  float: right; // barra lateral posiciona-se a direita
+  width: 300px;
+}
+
+body aside ul {
+  list-style: none;
+}
+
+body aside ul li {
+  list-style: none;
+}
+
+footer {
+  clear: both; // limpa as flotoaçoes passadas
+}
+
+#pack {
+  width: 1140px;
+  margin: auto;
+  background: #e3e3e3;
+  padding: 10px 20px;
+  /*overflow: hidden; // tud q ultrapassar os limites da div ficara oculto8*/
+}
+
+#conteudo {
+  float: left; //flotoa para equerda
+  width: 790px; //Define a largura
+}
